@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,123 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
     <title>Best Pizza</title>
 </head>
+
 <body>
-    
+    <!--navigation bars-->
+    <div class="nav">
+        <h3>B<span>es</span>t Pizza</h3>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#aboutus">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#menu">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#orders">Orders</a>
+                    </li>
+                    <li>
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="home">
+        <h1>
+            <emf>WELCOME TO<br>Best Pizza!</em>
+        </h1>
+    </div>
+    <!--About Us-->
+    <div class="container">
+        <h2>About us</h2>
+        <div class="row">
+            <div id="img1" class="text-center">
+                <img
+                    src="https://images.unsplash.com/photo-1552539618-7eec9b4d1796?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+            </div>
+            <div id="about-us" class="text-center">
+                <p><b>Karibu<span> Best Pizza</span></b></p>
+                <p></p>
+                <div id="aboutus">
+                    <p>We provive <strong>The best Pizza</strong> in Kigali, as they have a proper oven and are able to
+                        get high enough temperatures. <br> The ingredients are also high quality. The pasta is also
+                        excellent quality.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!--Menu-->
+        <div class="container text-center">
+            <h2>Menu</h2>
+            <div id="menu">
+               <div class="textOverImage" 
+               style="background-image: url(image/photo-1591722937570-370bf646acc7.jpeg )"
+               data-text="Small Size Pizza: Rwf4,000">
+               </div>
+               <div class="textOverImage" 
+               style="background-image: url(image/photo-1595378833483-c995dbe4d74f.jpeg )"
+               data-text="Medium Size Pizza: Rwf7,000">
+               </div>
+               <div class="textOverImage" 
+               style="background-image: url(image/photo-1590947132387-155cc02f3212.jpeg )"
+               data-text="Large Size Pizza: Rwf10,000">
+               </div>   
+        </div>
+    </div>
+
+    <!--Orders-->
+<div class="container" id="orders">
+    <h2>Order</h2>
+    <form class="text-center" id="text-center">
+        <label>pizza flavor</label><br>
+        <select class="flavors" id="flavor" required><br>
+            <option label="chicken alfredo pizza" value="800">Chicken Alfredo Pizza</option>
+            <option label="Taco Quesadila Pizza" value="1200">Taco Quesadila Pizza</option>
+            <option label="Mushrooms" value="350">Mushrooms</option>
+            <option label="Macaroni And Cheese Pizza" value="700">Macaroni And Cheese Pizza</option>
+            <option label="Beef pizza" value="500">Beef pizza</option>
+            <option label="Sausage pizza" value="650">Sausage pizza</option>
+
+        </select><br>
+        <br><label>pizza Size</label><br>
+        <select class="sizes" id="size" required><br>
+            <option label="Regular" value="300">Regular</option>
+            <option label="Medium" value="600">Medium</option>
+            <option label="Large" value="1200">Large</option>
+        </select><br>
+        <br><label>pizza Crust</label><br>
+        <select class="crust" id="crust" required><br>
+            <option label="Thin Crust" value="150">Thin Crust</option>
+            <option label="Thick Crust" value="200">Thick Crust</option>
+            <option label="Deep Crust" value="380">Deep Crust</option>
+            <option label="Cheese Filled Crust" value="500">Cheese Filled Crust</option>
+            <option label="Stuffed Crust" value="345">Stuffed Crust</option>
+        </select><br>
+        <br><label>pizza Topping</label><br>
+        <select class="toppings" id="topping" required><br>
+            <option label="Pepperoni" value="100">Pepperoni</option>
+            <option label="Mushrooms" value="300">Mushrooms</option>
+            <option label="Onions" value="120">Onions</option>
+            <option label="Sausage" value="124">Sausage</option>
+            <option label="Green peppers" value="80">Green peppers</option>
+        </select><br>
+        <br><label>Number of pizza</label><br>
+        <input value="" required placeholder="number of pizza" id="quantity"></input><br>
+        <div class="button">
+            <br><br><button type="submit" id="btn" label="">submit</button>
+        </div>
+    </form>
+</div>
+
+            
 </body>
+
 </html>
