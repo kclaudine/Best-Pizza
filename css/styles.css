@@ -158,9 +158,16 @@ p{
     text-align: center;
     align-content: center;
 }
+#contacts{
+    padding-top: 2%;
+    background-color:transparent;
+}
 #contacts h4{
     padding-bottom: 1%;
     font-size: 30;
     color: coral;
 
+}
+#contacts h6{
+    padding-top: 3%;
 }
