@@ -30,3 +30,7 @@ This is a web application where customers order different sizes of pizzas with o
  * JavaScript
  * Bootstrap
  * markdown
+
+## Known Bugs
+
+No known bugs
