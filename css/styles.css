@@ -155,6 +155,11 @@ p{
 }
 /*footer*/
 #contacts{
-    
+    text-align: center;
     align-content: center;
+}
+#contacts h4{
+    font-size: 30;
+    color: coral;
+
 }
