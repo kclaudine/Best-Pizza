@@ -39,7 +39,7 @@ No known bugs
 
  If you have any question, suggestion, comment or contribution, you can email me at claudinekuradusenge2@gmail.com
 
-## Licence 
+## icence 
 
  * MIT 
 
