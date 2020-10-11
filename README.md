@@ -34,3 +34,7 @@ This is a web application where customers order different sizes of pizzas with o
 ## Known Bugs
 
 No known bugs
+
+## Contact Information
+
+ If you have any question, suggestion, comment or contribution, you can email me at claudinekuradusenge2@gmail.com
