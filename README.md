@@ -22,3 +22,11 @@ This is a web application where customers order different sizes of pizzas with o
  * Active terminal
  * Visual studio code
  * Or Atom Or Any Other Text Editor You May Have.
+
+ ## Technologies Used:
+
+ * HTML5
+ * CSS3
+ * JavaScript
+ * Bootstrap
+ * markdown
