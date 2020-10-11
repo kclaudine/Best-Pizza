@@ -50,7 +50,7 @@ $(document).ready(function() {
         prompt("enter your email address");
         prompt("enter your phone number");
         prompt("enter your location");
-        alert("Your pizza will be delivered, Thank you!!");
+        alert("Your pizza will be delivered to you soon, Thank you!!");
     
         //a method to reset the form after all operations have been completed
         $("#text-center").reset();
