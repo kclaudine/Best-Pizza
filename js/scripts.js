@@ -1,34 +1,4 @@
-$('.image1').click(function () {
-    $('#image1').show();
-    $(".image1").hide();
 
-});
-$('#image1').click(function () {
-    $('.image1').show();
-    $("#image1").hide();
-
-});
-$('.image2').click(function () {
-    $('#image2').show();
-    $(".image2").hide();
-
-});
-$('#image2').click(function () {
-    $('.image2').show();
-    $("#image2").hide();
-
-});
-
-$('.image3').click(function () {
-    $('#image3').show();
-    $(".image3").hide();
-
-});
-$('#image3').click(function () {
-    $('.image3').show();
-    $("#image3").hide();
-
-});
 //order
 $(document).ready(function() {
     //form function to submit the users input, calculate total for the order, and prompt the user for some details
