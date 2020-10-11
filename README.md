@@ -38,3 +38,9 @@ No known bugs
 ## Contact Information
 
  If you have any question, suggestion, comment or contribution, you can email me at claudinekuradusenge2@gmail.com
+
+## Licence 
+
+ * MIT 
+
+ * Copyright (c) 2020 **Claudine Kuradusenge**
