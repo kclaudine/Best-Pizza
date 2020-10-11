@@ -44,11 +44,11 @@ h1{
     font-family: 'Dancing Script', cursive;
     font-size: 100px;
     text-align: center;
-    color:paleturquoise;
+    color:rebeccapurple;
     padding: 300px;
 }
 .home{
-    background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-image: url(../image/images\ \(2\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
