@@ -14,3 +14,11 @@ This is a web application where customers order different sizes of pizzas with o
  https://github.com/kclaudine/Best-Pizza.git
 
  After cloning it, you can open it in your code editor and run it in your browser
+
+ **You must also have:**
+
+ * Google chrome
+ * Ubuntu setup
+ * Active terminal
+ * Visual studio code
+ * Or Atom Or Any Other Text Editor You May Have.
